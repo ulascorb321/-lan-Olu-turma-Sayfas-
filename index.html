@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İlan Deneme</title>
+</head>
+<body>
+    <div class="enust">
+        <h1 id="ilanyazi" style="font-size: 50px; text-align: center;">İLAN GİRİŞ SAYFAYSI</h1>
+        <h1 style="font-size: 40px; text-align: center; color: #07b39b;">ULAŞ ÇORBACIOĞLU </h1>
+        <button id="ilanbtn">İlan Gir</button>
+    </div>
+    
+    <div class="ilanac" id="ilan">
+        <button id="buttonclose"><i class="fa-solid fa-x"></i></button>
+        <div >
+            <div class="girisbaslik">
+                <label for="" style="color: white;">BAŞLIK GİRİNİZ: </label>
+                <input type="text" id="baslik">
+            </div>
+            <div class="girisp">
+                <label for="" style="color: white;">AÇIKLAMA GİRİNİZ: </label>
+                <input type="text" id="parag">
+            </div>
+        </div>
+        
+        <div class="resimgiris">
+            <label for="" style="color: white;">RESİM SEÇİNİZ: </label>
+            <input type="file" id="myfile" name="myfile" accept="image/png, image/jpg, image/jpeg">
+        </div>
+        
+        <button id="savebtn">İLANI KAYDET</button>
+        <div id="resim" style="margin-top: 5%;"></div>
+        <h1 id="baslikh1"></h1>
+        <p id="yazip"></p>
+        
+    </div>
+    
+  
+
+    <div id="panel">
+
+    </div>
+    
+    <script src="ilan.js"></script>
+</body>
+</html>

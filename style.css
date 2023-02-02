@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+body{
+    background-color: rgb(53, 53, 53);
+}
+
+#ilanbtn{
+    margin-left: 80%; 
+    width: 200px; 
+    height: 40px;
+    font-size: 15px;
+    background: transparent;
+    border-radius: 25px;
+    cursor: pointer;
+    border-color: rgb(61, 61, 182);
+    color: rgb(67, 67, 163);
+    transition: all 1s;
+}
+
+#ilanbtn:hover{
+    font-size: 20px;
+    background-color: rgb(61, 61, 182);
+    color: white;
+}
+
+#ilan{
+    /* border: solid 2px;  */
+    width: 600px;
+    background: #1D1F20; 
+    height: 800px; 
+    visibility: hidden;
+    float: right;
+    margin-top: 2%;
+    border-color: rgb(61, 61, 182);
+    --borderWidth: 3px;
+    position: relative;
+    border-radius: var(--borderWidth);
+}
+
+#ilan:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+  
+  
+  @keyframes animatedgradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+
+
+#myfile{
+    margin-left: 3%;
+}
+
+#resim{
+    width: 300px; 
+    height: 300px;
+    padding-top: 10%;
+    margin-left: 5%;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#baslik{
+    width: 300px;
+    height: 20px;
+    margin-left: 5%;
+    border-radius: 25px;
+}
+
+#parag{
+    width: 300px;
+    height: 20px;
+    margin-left: 5%;
+    border-radius: 25px;
+}
+
+h1{
+    margin-left: 5%;
+    color: white;
+}
+
+p{
+    margin-left: 5%;
+    color: white;
+}
+
+#savebtn{
+    margin-left: 5%;
+    width: 200px;
+    height: 50px;
+    margin-top: 5%;
+    background: transparent;
+    border-radius: 25px;
+    cursor: pointer;
+    border-color: rgb(61, 61, 182);
+    color: rgb(67, 67, 163);
+}
+
+#savebtn:hover{
+    font-size: 20px;
+    background-color: rgb(61, 61, 182);
+    color: white;
+    transition: all 1s;
+}
+
+
+.girisbaslik{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.girisp{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.resimgiris{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+#buttonclose{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background: transparent;
+    color: red;
+    font-size: 25px;
+    border: none;
+}
+
+#buttonclose:hover{
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+}
+
+.jskutu{
+    width: 400px;
+    height: 560px;
+    border: 2px solid;
+    border-color: #07b39b;
+    border-radius: 3%;
+    overflow: hidden;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.div2{
+    width: 400px;
+    height: 450px;
+    
+}
+
